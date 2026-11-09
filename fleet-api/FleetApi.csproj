@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FleetApi</RootNamespace>
+    <AssemblyName>FleetApi</AssemblyName>
+    <!-- 零外部 NuGet 依赖：JWT、存储、路由全部用 BCL 实现，
+         离线机器也能 build/run，这是「换皮」对照项目的关键约束 -->
+  </PropertyGroup>
+
+</Project>
